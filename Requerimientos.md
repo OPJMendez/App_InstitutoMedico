@@ -6,3 +6,6 @@ El paciente debe estar en la capacidad de registrarse en la plataforma, solicita
 El médico debe estar en la capacidad de gestionar sus citas y crear/modificar los comentarios realizados al paciente.
 La atención del centro de salud se realiza por orden de llegada, y la cantidad máxima de atención de cada médico es fija.
 Los datos suministrados por los usuarios deben cumplir la política de privacidad de datos vigente.
+
+
+ verificando con fetch.
