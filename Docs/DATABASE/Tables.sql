@@ -68,7 +68,6 @@ CREATE TABLE tbl_Paciente (
         REFERENCES `tbl_tipoDocumento` (PK_IdtipoDocumento),
     PRIMARY KEY (PK_IdPaciente)
 );
--- Error Code: 1005. Can't create table `db_institutomedico`.`tbl_paciente` (errno: 150 "Foreign key constraint is incorrectly formed")
 CREATE TABLE tbl_Medico (
     PK_IdMedico VARCHAR(10),
     Nombre VARCHAR(50) NOT NULL,
