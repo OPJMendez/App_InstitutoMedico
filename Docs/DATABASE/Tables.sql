@@ -1,7 +1,7 @@
-CREATE DATABASE DB_InstitutoMedico;
-USE DB_InstitutoMedico;
+CREATE DATABASE DB_InstitutoMedicoTest;
+USE DB_InstitutoMedicoTest;
 CREATE TABLE tbl_Sexo (
-    PK_IdSexo CHAR,
+    PK_IdSexo INT,
     Nombre VARCHAR(20) NOT NULL,
     Abreviatura CHAR,
     PRIMARY KEY (PK_IdSexo)
@@ -65,7 +65,7 @@ CREATE TABLE tbl_Paciente (
     FOREIGN KEY (FK_IdHistoria)
         REFERENCES `tbl_historiaClinica` (PK_IdHistoria),
     FOREIGN KEY (FK_tipoDocumento)
-        REFERENCES `tbl_tipoDocumento` (PK_IdtipoDocumento),
+        REFERENCES `tbl_tipoDocumento` (PK_Idtipo),
     PRIMARY KEY (PK_IdPaciente)
 );
 CREATE TABLE tbl_Medico (
@@ -115,7 +115,7 @@ CREATE TABLE tbl_Calificacion (
 );
 CREATE TABLE tbl_reporteCita (
     PK_IdReporte BIGINT AUTO_INCREMENT,
-    FK_IdCita BIGINT AUTO_INCREMENT,
+    FK_IdCita BIGINT,
     FOREIGN KEY (FK_IdCita)
         REFERENCES `tbl_Cita` (PK_IdCita),
     FK_IdPaciente VARCHAR(10) NOT NULL,
