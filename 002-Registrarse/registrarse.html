@@ -1,76 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header class="header">
-            <div class="menu container">
-                <a href class="logo">I.M Salud Colombia</a>
-                <nav class="navbar">
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="/index.html">Iniciar Sesion</a></li>
-                        <li><a href="/Registrarse/index.html">Registrarse</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <div class="principal">
-            <section class="form">
-                <div class="contform">
-                    <div class="prueba">
-                        <form action="">
-                            <h3>Datos de registro</h3>
-                            <select name="tipodoc" id="tipodoc" class="cajas">
-                                <br>
-                                <option value selected disabled>Tipo Documento
-                                </option>
-                                <option value="Tarjeta identidad">Tarjeta Identidad</option>
-                                <option value="Cedula Ciudadania">Cedula Ciudadania</option>
-                                <option value="Cedula Extranjeria">Cedula
-                                    Extranjeria</option>
-                            </select>
-                            <input type="number" name="identificacion"
-                                id="identificacion"
-                                placeholder="Número de documento" class="cajas">
-                            <br>
-                            <input type="text" name="nombres"
-                            id="nombres"
-                            placeholder="Nombres" class="cajas">
-                            <input type="text" name="apellidos"
-                            id="apellidos"
-                            placeholder="Apellidos" class="cajas">
-                            <br>
-                            <input type="number" name="edad"
-                            id="edad"
-                            placeholder="Edad" class="cajas">
-                            <input type="text" name="direccion"
-                            id="direccion"
-                            placeholder="Direccion" class="cajas">
-                            <br>
-                            <input type="text" name="correo"
-                            id="correo"
-                            placeholder="Correo electronico" class="cajas">
-                            <select name="tipodoc" id="tipodoc" class="cajas">
-                                <br>
-                                <option value selected disabled>Genero
-                                </option>
-                                <option value="Tarjeta identidad">Masculino</option>
-                                <option value="Cedula Ciudadania">Femenino</option>
-                                <option value="Cedula Extranjeria">Otro</option>
-                            </select>
-                            <br>
-                            <input type="submit" value="Registrarse"
-                                class="boton">
-                        </form>
-                    </div>
-                </div>
-            </section>
-            <footer></footer>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu container">
+        <a href class="logo">I.M Salud Colombia</a>
+        <nav class="navbar">
+          <ul>
+            <li><a href="/000-Landing-Page/index.html">Inicio</a></li>
+            <li>
+              <a href="/001-IniciarSesion/iniciar-sesion.html"
+                >Iniciar Sesion</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="principal">
+      <section class="form">
+        <div class="contform">
+          <div class="prueba">
+            <form action="">
+              <h3>Datos de registro</h3>
+              <select name="tipodoc" id="tipodoc" class="cajas">
+                <br />
+                <option value selected disabled>Tipo Documento</option>
+                <option value="Tarjeta identidad">Tarjeta Identidad</option>
+                <option value="Cedula Ciudadania">Cedula Ciudadania</option>
+                <option value="Cedula Extranjeria">Cedula Extranjeria</option>
+              </select>
+              <input
+                type="number"
+                name="identificacion"
+                id="identificacion"
+                placeholder="Número de documento"
+                class="cajas"
+              />
+              <br />
+              <input
+                type="text"
+                name="nombres"
+                id="nombres"
+                placeholder="Nombres"
+                class="cajas"
+              />
+              <input
+                type="text"
+                name="apellidos"
+                id="apellidos"
+                placeholder="Apellidos"
+                class="cajas"
+              />
+              <br />
+              <input
+                type="number"
+                name="edad"
+                id="edad"
+                placeholder="Edad"
+                class="cajas"
+              />
+              <input
+                type="text"
+                name="direccion"
+                id="direccion"
+                placeholder="Direccion"
+                class="cajas"
+              />
+              <br />
+              <input
+                type="text"
+                name="correo"
+                id="correo"
+                placeholder="Correo electronico"
+                class="cajas"
+              />
+              <select name="tipodoc" id="tipodoc" class="cajas">
+                <br />
+                <option value selected disabled>Genero</option>
+                <option value="Tarjeta identidad">Masculino</option>
+                <option value="Cedula Ciudadania">Femenino</option>
+                <option value="Cedula Extranjeria">Otro</option>
+              </select>
+              <br />
+              <input type="submit" value="Registrarse" class="boton" />
+            </form>
+          </div>
         </div>
-    </body>
+      </section>
+      <footer></footer>
+    </div>
+  </body>
 </html>
