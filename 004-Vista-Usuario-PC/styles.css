@@ -62,8 +62,8 @@ a {
 /* BARRA LATERAL IZQUIERDA */
 .main {
   width: 100%;
-  height: 616px;
-  top: 50px;
+  height: 600px;
+  top: 60px;
   position: absolute;
   background-color: #b0e0e6;
 }
@@ -115,7 +115,76 @@ a {
 /* Elementos del lado derecho */
 .right-section {
   display: flex;
-  left: 250px;
   position: relative;
-  bottom: 250px;
+  left: 340px;
+  bottom: 450px;
+}
+.options-one {
+  font-size: 16px;
+  border-radius: 24px;
+}
+.options-two {
+  font-size: 16px;
+  border-radius: 24px;
+}
+.right-section-button {
+  display: block;
+  position: relative;
+  width: 240px;
+  height: 40px;
+  top: 100px;
+  right: 320px;
+  font-size: 24px;
+  border-radius: 36px;
+  background-color: #b0e0e6;
+  border: none;
+}
+.right-section-button:hover {
+  background-color: #b0c4de;
+}
+.message-card {
+  display: none;
+  position: relative;
+  left: 500px;
+  bottom: 380px;
+  border-radius: 15px;
+  width: 380px;
+  height: 200px;
+  background-color: #b0c4de;
+}
+.message-title {
+  font-size: 20px;
+  position: relative;
+  left: 90px;
+  top: 15px;
+  font-weight: bold;
+  color: #000000;
+}
+.message-description {
+  position: relative;
+  top: 25px;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+}
+.close-button {
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 85px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0);
+  left: 115px;
+  top: 45px;
+}
+
+.close-button:hover {
+  background-color: rgb(31 41 55);
+  color: #fff;
+  border: rgb(31 41 55);
+}
+
+.close-button:active {
+  font-weight: 100;
 }
