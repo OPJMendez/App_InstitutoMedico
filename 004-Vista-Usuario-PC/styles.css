@@ -11,6 +11,9 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
+a {
+  color: #000000;
+}
 /* HEADER */
 .header {
   background-color: #f8f8ff;
@@ -55,4 +58,64 @@
   border: none;
   background-color: #f8f8ff;
   cursor: pointer;
+}
+/* BARRA LATERAL IZQUIERDA */
+.main {
+  width: 100%;
+  height: 616px;
+  top: 50px;
+  position: absolute;
+  background-color: #b0e0e6;
+}
+.main-center {
+  background-color: #f8f8ff;
+  width: 1116px;
+  height: 540px;
+  display: block;
+  position: relative;
+  justify-content: center;
+  top: 50px;
+  right: 1px;
+  bottom: 1px;
+  left: 100px;
+}
+.main-center .main-sidebar {
+  width: 200px;
+  height: 100%;
+  background-color: #b0c4de;
+}
+.sidebar-buttons {
+  background-color: #b0c4de;
+}
+.sidebar-buttons button {
+  margin-top: 24px;
+  margin-left: 16px;
+  border: none;
+  background-color: #b0e0e6;
+  font-size: 16px;
+  width: 174px;
+  height: 36px;
+  border-radius: 48px;
+  text-align: center;
+  padding: 0;
+}
+.sidebar-buttons button:hover {
+  color: #000000;
+  background-color: #f8f8ff;
+}
+.main-sidebar figure {
+  position: relative;
+  top: 260px;
+  margin-left: 28px;
+}
+.main-sidebar img {
+  width: 140px;
+  height: 160px;
+}
+/* Elementos del lado derecho */
+.right-section {
+  display: flex;
+  left: 250px;
+  position: relative;
+  bottom: 250px;
 }
