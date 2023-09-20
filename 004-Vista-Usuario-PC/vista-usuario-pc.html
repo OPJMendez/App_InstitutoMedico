@@ -15,7 +15,7 @@
         <li class="menu-item">Usuario: Luis Gomez</li>
         <li class="menu-item">Afiliado a: Caja Copi</li>
         <li class="menu-item">
-          <button class="menu-btn">
+          <button class="menu-btn" id="btn-Icon-User">
             <img
               class="user-logo"
               src="/003-Vista-Usuario-CP/assets/icon-user.svg"
@@ -30,11 +30,10 @@
       <section class="main-center">
         <section class="main-sidebar">
           <section class="sidebar-buttons">
-            <button class="sidebar-button-one">
-              <a href="#">Agendar nueva cita</a>
-            </button>
             <button class="sidebar-button-two">
-              <a href="#">Citas Programadas</a>
+              <a href="/003-Vista-Usuario-CP/vista-usuario-cp.html"
+                >Citas Programadas</a
+              >
             </button>
           </section>
           <figure>
@@ -75,12 +74,20 @@
       <section class="message-card" id="message-card">
         <span class="message-title">Cita Asignada Con Éxito</span>
         <p class="message-description">
-          Sr. Juan Gomez, su cita ha quedado agendada para la siguiente fecha:
+          Sr. Luis Gomez, su cita ha quedado agendada para la siguiente fecha:
           02/10/2023 y hora 16:30.
         </p>
         <button class="close-button" id="btn-CloseMessage">Cerrar</button>
       </section>
-      <script src="app.js"></script>
+      <!-- Cerrar Sesion -->
+      <section class="message-card-two" id="message-card-two">
+        <span class="message-title-two">¿Desea cerrar su sesión?</span>
+        <button class="close-button-two" id="btn-CloseMessage-two">
+          <a href="/001-IniciarSesion/iniciar-sesion.html">Aceptar</a>
+        </button>
+      </section>
     </main>
+    <script src="showMessage.js"></script>
+    <script src="closeSession.js"></script>
   </body>
 </html>

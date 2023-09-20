@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vista Medico</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <span class="header-logo">I.M Salud Colombia</span>
+      <ul class="header-menu-items">
+        <li class="menu-item">Usuario: Luis Gomez</li>
+        <li class="menu-item">Afiliado a: Caja Copi</li>
+        <li class="menu-item">
+          <button class="menu-btn">
+            <img
+              class="user-logo"
+              src="/Docs/Media/004-Vista-Medico/icon-user.svg"
+              alt="icon-user"
+            />
+          </button>
+        </li>
+      </ul>
+    </header>
+    <!-- Main -->
+    <main class="main">
+        <section class="main-center">
+          <section class="main-sidebar">
+            <section class="sidebar-buttons">
+              <button class="sidebar-button-one" id="btn-AgendarCita">
+                <a href="#">Agendar nueva cita</a>
+              </button>
+              <button class="sidebar-button-two" id="btn-CitasProgramadas">
+                <a href="#">Citas Programadas</a>
+              </button>
+            </section>
+            <figure>
+              <img src="/Docs/Media/004-Vista-Medico/icon-calendar.svg" alt="calendar-icon" />
+            </figure>
+          </section>
+          <!-- Tabla -->
+          <section class="main-table">
+            <table class="table">
+              <!-- Nombre de la tabla -->
+              <caption>
+                Citas Programadas
+              </caption>
+              <!-- Filas -->
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Identificación</th>
+                  <th>Fecha</th>
+                  <th>Hora</th>
+                  <th>Estado</th>
+                  <th>Historia Clinica</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Columnas -->
+                <tr>
+                  <td data-label="Nombre">Luis Gomez</td>
+                  <td data-label="Identificación">22445985</td>
+                  <td data-label="Fecha">2023-10-21</td>
+                  <td data-label="Hora">14:25</td>
+                  <td data-label="Estado">Atendida</td>
+                  <td data-label="Historia Clinica"><button class="table-button-one"><a href="">Historia Clinica</a></button></td>
+                  <td>
+                    <button class="table-button-two">
+                        <a href="">Editar</a>
+                      </button>
+                    </td>
+                    <td>
+                      <button class="table-button-three">
+                        <a href="">Eliminar</a>
+                      </button>
+                  </td>
+                    <td>
+                      <button class="table-button-four">
+                       <a href="">Ver Comentarios</a>
+                      </button>
+                  </td>
+                    <td>
+                      <button class="table-button-five">
+                       <a href="">Ver Calificación</a>
+                      </button>
+                  </td>
+                </tr>     
+              </tbody>
+            </table>
+          </section>
+  </body>
+</html>

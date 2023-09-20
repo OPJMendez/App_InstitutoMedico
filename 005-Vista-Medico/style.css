@@ -69,7 +69,7 @@ a {
 }
 .main-center {
   background-color: #f8f8ff;
-  width: 1116px;
+  width: 1200px;
   height: 540px;
   display: block;
   position: relative;
@@ -115,7 +115,7 @@ a {
 /* Tabla */
 .main-table {
   width: 400px;
-  left: 440px;
+  left: 500px;
   bottom: 500px;
   display: flex;
 
@@ -144,74 +144,52 @@ table caption {
 
 /* Botones de la tabla */
 .table-button-one {
-  background-color: #f8f8f8;
-  border: none;
+  font-size: 12px;
+  width: 106px;
+  border-radius: 36px;
+  background-color: #b0e0e6;
   cursor: pointer;
 }
-.table-button-two {
-  background-color: #f8f8f8;
-  border: none;
-  cursor: pointer;
-}
-
-/* Media Queries */
-@media (max-width: 991px) {
-  .header-logo {
-    color: #000000;
-    font-size: 24px;
-    margin-left: 18px;
-    font-weight: 600;
-    height: 50px;
-  }
-  .main {
-    width: 600px;
-    height: 600px;
-  }
-  .main-center {
-    width: 500px;
-    height: 500px;
-  }
-}
-/* cerrar sesion */
-.message-card {
-  display: none;
-  position: relative;
-  left: 540px;
-  bottom: 280px;
-  border-radius: 15px;
-  width: 340px;
-  height: 100px;
+.table-button-one:hover {
   background-color: #b0c4de;
 }
-.message-title {
-  left: 68px;
-  top: 15px;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  color: #000000;
-}
-.close-button {
-  position: relative;
+.table-button-two {
+  font-size: 12px;
+  width: 60px;
+  border-radius: 36px;
+  background-color: #b0e0e6;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: bold;
-  border-radius: 5px;
-  width: 85px;
-  height: 35px;
-  background-color: rgba(255, 255, 255, 0);
-  top: 45px;
-  right: 100px;
 }
-.close-button:hover {
-  background-color: rgb(31 41 55);
-  color: #fff;
-  border: rgb(31 41 55);
-  font-size: 16px;
+.table-button-two:hover {
+  background-color: #b0c4de;
 }
-.close-button:active {
-  font-weight: 100;
+.table-button-three {
+  font-size: 12px;
+  width: 64px;
+  border-radius: 36px;
+  background-color: #b0e0e6;
+  cursor: pointer;
+}
+.table-button-three:hover {
+  background-color: #b0c4de;
+}
+.table-button-four {
+  font-size: 12px;
+  width: 100px;
+  border-radius: 36px;
+  background-color: #b0e0e6;
+  cursor: pointer;
+}
+.table-button-four:hover {
+  background-color: #b0c4de;
+}
+.table-button-five {
+  font-size: 12px;
+  width: 110px;
+  border-radius: 36px;
+  background-color: #b0e0e6;
+  cursor: pointer;
+}
+.table-button-five:hover {
+  background-color: #b0c4de;
 }
