@@ -53,3 +53,7 @@ Los datos suministrados por los usuarios deben cumplir la política de privacida
 5- Capacidad de Atención:
 
 -> La cantidad máxima de pacientes atendidos por cada médico debe ser gestionada y no debe ser excedida.
+
+
+## Alcance del proyecto
+Implementación de un sistema de gestion de citas que permita al personal del instituto médico y a sus clientes tener un control acerca de sus solicitudes médicas.
