@@ -1,70 +1,92 @@
-# App-InstitutoMedico
+# Gestion de citas médicas
 
-RETO GESTION DE PACIENTES ADSO 7
+El Instituto Medico 'Salud Colombia', requiere un sistema para gestionar los
+pacientes, El paciente debe estar en la capacidad de registrarse en la
+plataforma, solicitar una cita con el médico deseado, y después de su cita poder
+calificar la atención recibida y observar los comentarios realizados por parte
+del profesional de la salud. Los médicos pueden ver los pacientes que tiene
+asignados junto con la retroalimentación realizada en cada una de las citas, con
+el fin de poder estudiarlos y ofrecer al paciente un resumen sobre su estado de
+salud.
 
-Instituto Medico 'Salud Colombia', requiere un sistema para gestionar los pacientes, en el cual los médicos puedan ver los pacientes que tiene asignados junto con la retroalimentación realizada en cada una de las citas, con el fin de poder estudiarlos y ofrecer al paciente un resumen sobre su estado de salud.
-El paciente debe estar en la capacidad de registrarse en la plataforma, solicitar una cita con el médico deseado, y después de su cita poder calificar la atención recibida y observar los comentarios realizados por parte del profesional de la salud .
-El médico debe estar en la capacidad de gestionar sus citas y crear/modificar los comentarios realizados al paciente.
-La atención del centro de salud se realiza por orden de llegada, y la cantidad máxima de atención de cada médico es fija.
-Los datos suministrados por los usuarios deben cumplir la política de privacidad de datos vigente.
+El médico debe estar en la capacidad de gestionar sus citas crear observaciones
+realizadas al paciente.
 
-        Requerimientos Funcionales:
+# Requerimientos Funcionales:
 
-1- Gestión de pacientes:
+**Registro:**
 
--> Los médicos deben poder acceder a una lista de pacientes asignados.
+- Los pacientes deben poder registrarse en la plataforma proporcionando
+  información personal.
 
--> Deben poder ver la retroalimentación registrada en cada cita con sus pacientes.
+**Login:**
 
--> Deben poder estudiar la información para ofrecer un resumen sobre la salud del paciente.
+- El sistema debe permitir la creación de un usuario y contraseña para el acceso
+  a la plataforma.
 
-2- Registro y citas de pacientes:
+**Solicitud de Citas**:
 
--> Los pacientes deben poder registrarse en la plataforma.
+- El usuario debe poder solicitar citas con médicos específicos, seleccionando
+  fecha y hora disponibles.
 
--> Los pacientes deben poder solicitar citas con médicos específicos.
+**Calificación de Atención**:
 
--> Después de la cita, los pacientes deben poder calificar la atención y ver los comentarios del médico.
+- Permitir a los pacientes calificar la atención recibida después de cada cita
+  médica.
+
+**Visualización de Comentarios**:
+
+- Posibilidad de ver los comentarios y observaciones realizadas por los médicos
+  después de cada cita.
 
 3- Gestión de Citas por Médicos:
 
--> Los médicos deben poder gestionar sus propias citas, incluyendo crear y modificar citas.
+-> Los médicos deben poder gestionar sus propias citas, incluyendo crear y
+modificar citas.
 
--> Deben poder agregar o modificar los comentarios relacionados con la atención brindada a cada paciente.
+-> Deben poder agregar o modificar los comentarios relacionados con la atención
+brindada a cada paciente.
 
-        Requerimientos No Funcionales:
+# Requerimientos No Funcionales:
 
 1- Seguridad:
 
--> Los datos de pacientes y médicos deben estar protegidos mediante medidas de seguridad adecuadas.
+-> Los datos de pacientes y médicos deben estar protegidos mediante medidas de
+seguridad adecuadas.
 
 2- Usabilidad:
 
--> La plataforma debe ser fácil de usar tanto para los médicos como para los pacientes.
+-> La plataforma debe ser fácil de usar tanto para los médicos como para los
+pacientes.
 
 3- Rendimiento:
 
--> El sistema debe manejar la carga de gestionar citas y comentarios sin demoras significativas.
+-> El sistema debe manejar la carga de gestionar citas y comentarios sin demoras
+significativas.
 
 4- Disponibilidad:
 
--> El sistema debe estar disponible para los usuarios en todo momento, dado que se maneja por orden de llegada.
+-> El sistema debe estar disponible para los usuarios en todo momento, dado que
+se maneja por orden de llegada.
 
 5- Capacidad de Atención:
 
--> La cantidad máxima de pacientes atendidos por cada médico debe ser gestionada y no debe ser excedida.
-
+-> La cantidad máxima de pacientes atendidos por cada médico debe ser gestionada
+y no debe ser excedida.
 
 ## Alcance del proyecto
-Implementación de un sistema de gestion de citas que permita al personal del instituto médico y a sus clientes tener un control acerca de sus solicitudes médicas.
 
+Implementación de un sistema de gestion de citas que permita al personal del
+instituto médico y a sus clientes tener un control acerca de sus solicitudes
+médicas.
 
 ## Datos aparte
+
 Roles: Admin, Medico, Paciente.
 
 Admin: registra, agendar citas (CRUD), alterar estados (Activo, Inactivo,)
 
-Medico - Activo, inactivo, disponible, no disponible
-Paciente, estados: Activo, inactivo
+Medico - Activo, inactivo, disponible, no disponible Paciente, estados: Activo,
+inactivo
 
 Citas estados: asignadas,atendida , cancelada
