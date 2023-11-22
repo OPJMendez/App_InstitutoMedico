@@ -1,10 +1,10 @@
 # Gestion de citas médicas
 
 El Instituto Medico 'Salud Colombia', requiere un sistema para gestionar los
-pacientes, el paciente debe estar en la capacidad de registrarse en la
-plataforma, solicitar una cita con el médico deseado, y después de su cita poder
-calificar la atención recibida y observar los comentarios realizados por parte
-del profesional de la salud.
+pacientes que requieran un servicio médico, el paciente debe estar en la
+capacidad de registrarse en la plataforma, solicitar una cita con el médico
+deseado, y después de su cita poder calificar la atención recibida y observar
+los comentarios realizados por parte del profesional de la salud.
 
 Los médicos pueden ver los pacientes que tiene asignados junto con la
 retroalimentación realizada en cada una de las citas, con el fin de poder
