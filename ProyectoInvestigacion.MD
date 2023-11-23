@@ -257,4 +257,43 @@ realizadas al paciente.
 **Calificación o Comentarios por parte del paciente**
 
 - Los médicos deben poder observar la calificación recibida por parte del
-  paciente
+  paciente.
+
+---
+
+### Requerimientos No Funcionales:
+
+**Seguridad y Privacidad:**
+
+- Cumplimiento con regulaciones de seguridad médica para proteger los datos
+  confidenciales de los pacientes.
+
+**Usabilidad y Experiencia del Usuario:**
+
+- Interfaz intuitiva y fácil de usar para pacientes y médicos, con navegación
+  clara y accesible.
+
+**Disponibilidad y Confianza:**
+
+- Garantizar un sistema disponible las 24 horas del día, 7 días a la semana, con
+  una alta confiabilidad y tiempos de respuesta rápidos.
+
+**Rendimiento y Escalabilidad:**
+
+- El sistema debe manejar eficientemente un alto volumen de solicitudes de
+  pacientes y médicos, manteniendo un rendimiento óptimo.
+
+**Compatibilidad Multiplataforma:**
+
+- Debe ser accesible desde dispositivos móviles y diversos navegadores web sin
+  comprometer la funcionalidad.
+
+**Mantenibilidad y Actualizaciones:**
+
+- Mantenimiento sencillo del sistema, con la capacidad de realizar
+  actualizaciones sin interrumpir el servicio.
+
+**Auditoría y Registro:**
+
+- Capacidad para registrar acciones importantes dentro del sistema para
+  propósitos de auditoría y seguimiento.
