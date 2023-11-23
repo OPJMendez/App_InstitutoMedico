@@ -111,8 +111,8 @@ seguimiento estructurado de la atención médica.
 
 **Capacitar a Usuarios Finales**:
 
-Brindar capacitación y soporte adecuado a médicos y personal administrativo para
-el uso eficiente y efectivo del sistema.
+- Brindar capacitación y soporte adecuado a médicos y personal administrativo
+  para el uso eficiente y efectivo del sistema.
 
 **Desplegar y Poner en Marcha el Sistema**:
 
@@ -162,3 +162,42 @@ el uso eficiente y efectivo del sistema.
 
   - Implementación de medidas de seguridad robustas para proteger los datos
     médicos sensibles de pacientes y médicos.
+
+---
+
+### Metodología Propuesta:
+
+**Fase de Análisis y Diseño**:
+
+- Levantamiento de requisitos, diseño de la arquitectura del sistema y
+  elaboración de especificaciones detalladas.
+
+**Desarrollo e Implementación**:
+
+- Creación de los módulos y funcionalidades del sistema de acuerdo a los
+  requisitos establecidos, y su implementación en un entorno de prueba.
+
+**Pruebas y Ajustes**:
+
+- Verificación exhaustiva de la funcionalidad y usabilidad del sistema,
+  realizando ajustes y correcciones según sea necesario.
+
+**Despliegue y Entrega**:
+
+- Implementación final del sistema en el entorno de producción, asegurando una
+  transición sin problemas y capacitando al personal para su uso efectivo.
+
+---
+
+### Beneficios Esperados:
+
+- **Mejora en la Experiencia del Paciente**: Mayor facilidad para gestionar
+  citas, proporcionar retroalimentación y recibir una atención médica más
+  personalizada.
+
+- **Eficiencia Operativa**: Optimización de los procesos de gestión de
+  pacientes, reducción de tiempos de espera y mejora en la organización de
+  agendas médicas.
+
+- **Continuidad en la Atención Médica**: Seguimiento estructurado que permita
+  una atención médica continua y de calidad para los pacientes.
