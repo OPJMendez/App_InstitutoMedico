@@ -18,7 +18,7 @@ satisfactoria y centrada en el paciente.
 
 # Planteamiento del Problema:
 
-Desarrollo de un Sistema de gestión de Pacientes para mejorar la experiencia
+Desarrollo de un Sistema de gestión de citas médicas para mejorar la experiencia
 médica en el Instituto Médico 'Salud Colombia'.
 
 El Instituto Médico 'Salud Colombia' enfrenta dificultades para gestionar
@@ -70,10 +70,10 @@ y médicos.
 
 # Objetivo General:
 
-Desarrollar e implementar un Sistema Integral de Gestión de Pacientes para el
-Instituto Médico 'Salud Colombia' que optimice la gestión de citas, mejore la
-comunicación médico-paciente y proporcione un seguimiento estructurado de la
-atención médica.
+Desarrollar e implementar un Sistema Integral de Gestión de citas médicas para
+el Instituto Médico 'Salud Colombia' que optimice la gestión de los pacientes y
+sus citas asignadas, mejore la comunicación médico-paciente y proporcione un
+seguimiento estructurado de la atención médica.
 
 # Objetivos Específicos:
 
@@ -118,3 +118,47 @@ el uso eficiente y efectivo del sistema.
 
 Implementar el sistema de gestión de pacientes en el entorno de producción,
 asegurando una transición sin problemas y un inicio efectivo de su operación.
+
+---
+
+# Propuesta: Sistema de Gestión de citas médicas para el Instituto Médico 'Salud Colombia'
+
+**Resumen Ejecutivo**:
+
+- El proyecto propone el desarrollo e implementación de un Sistema Integral de
+  Gestión de citas médicas para el Instituto Médico 'Salud Colombia'. Este
+  sistema tiene como objetivo principal optimizar la gestión de citas, mejorar
+  la comunicación entre médicos y pacientes, y proporcionar un seguimiento
+  médico estructurado para garantizar una experiencia médica más satisfactoria y
+  eficiente.
+
+**Objetivo**:
+
+- El propósito principal es desarrollar una plataforma tecnológica que integre
+  funciones clave para la gestión de pacientes, permitiendo a 'Salud Colombia'
+  mejorar la atención médica ofrecida a sus pacientes y optimizar la eficiencia
+  operativa del instituto.
+
+**Características del Sistema**:
+
+- Gestión Eficiente de Citas:
+
+  - Módulo que permita a los pacientes solicitar citas con médicos específicos y
+    gestionar horarios de manera intuitiva.
+
+- Canal de Retroalimentación Paciente-Médico:
+
+  - Sistema para que los pacientes califiquen la atención médica y proporcionen
+    comentarios, y para que los médicos respondan y mejoren la atención en base
+    a esa retroalimentación.
+
+- Seguimiento Médico Estructurado:
+
+  - Plataforma que permita a los médicos registrar observaciones, diagnósticos y
+    tratamientos, generando un resumen del estado de salud del paciente
+    accesible para ambos.
+
+- Seguridad y Confidencialidad:
+
+  - Implementación de medidas de seguridad robustas para proteger los datos
+    médicos sensibles de pacientes y médicos.
