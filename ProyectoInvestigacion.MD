@@ -201,3 +201,60 @@ seguimiento estructurado de la atención médica.
 
 - **Continuidad en la Atención Médica**: Seguimiento estructurado que permita
   una atención médica continua y de calidad para los pacientes.
+
+---
+
+# Requerimiento:
+
+El Instituto Medico 'Salud Colombia', requiere un sistema para gestionar los
+pacientes que requieran un servicio médico, el paciente debe estar en la
+capacidad de registrarse en la plataforma, solicitar una cita con el médico
+deseado, y después de su cita poder calificar la atención recibida y observar
+los comentarios realizados por parte del profesional de la salud.
+
+Los médicos pueden ver los pacientes que tiene asignados junto con la
+retroalimentación realizada en cada una de las citas, con el fin de poder
+estudiarlos y ofrecer al paciente un resumen sobre su estado de salud.
+
+El médico debe estar en la capacidad de gestionar sus citas crear observaciones
+realizadas al paciente.
+
+### Requerimientos Funcionales:
+
+**Registro:**
+
+- Los pacientes deben poder registrarse en la plataforma proporcionando
+  información personal.
+
+**Login:**
+
+- El sistema debe permitir la creación de un usuario y contraseña para el acceso
+  a la plataforma.
+
+**Solicitud de Citas**:
+
+- El usuario debe poder solicitar citas con médicos específicos, seleccionando
+  fecha y hora disponibles.
+
+**Calificación de Atención**:
+
+- Permitir a los pacientes calificar la atención recibida después de cada cita
+  médica.
+
+**Visualización de Comentarios**:
+
+- Posibilidad de ver los comentarios y observaciones realizadas por los médicos
+  después de cada cita.
+
+**Disponibilidad de información**
+
+- Los médicos deben poder acceder a la lista de pacientes con citas asignadas.
+
+**Comentarios - Observaciones medicas**
+
+- Deben poder crear observaciones acerca del estado de salud del paciente.
+
+**Calificación o Comentarios por parte del paciente**
+
+- Los médicos deben poder observar la calificación recibida por parte del
+  paciente
