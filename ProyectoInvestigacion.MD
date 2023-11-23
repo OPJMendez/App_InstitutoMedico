@@ -77,47 +77,47 @@ seguimiento estructurado de la atención médica.
 
 # Objetivos Específicos:
 
-- **Diseñar la Arquitectura del Sistema**:
+**Diseñar la Arquitectura del Sistema**:
 
-Definir los requisitos técnicos y funcionales del sistema de gestión de
-pacientes, incluyendo la infraestructura tecnológica necesaria.
+- Definir los requisitos técnicos y funcionales del sistema de gestión de
+  pacientes, incluyendo la infraestructura tecnológica necesaria.
 
-- Desarrollar la Plataforma de Gestión de Citas:
+**Desarrollar la Plataforma de Gestión de Citas**:
 
-Crear un módulo que permita a los pacientes solicitar citas con médicos
-específicos, gestionar disponibilidad y evitar conflictos de horarios.
+- Crear un módulo que permita a los pacientes solicitar citas con médicos
+  específicos, gestionar disponibilidad y evitar conflictos de horarios.
 
-- Implementar Módulo de Retroalimentación Paciente-Médico:
+**Implementar Módulo de Retroalimentación Paciente-Médico**:
 
 - Diseñar un sistema que facilite la retroalimentación y calificación de la
   atención médica por parte de los pacientes, y permita al instituto médico
   tomar decisiones para mejorar su servicio en base a dicha retroalimentación.
 
-- Establecer el Seguimiento Médico Estructurado:
+**Establecer el Seguimiento Médico Estructurado**:
 
-Desarrollar un sistema que permita a los médicos registrar observaciones,
-diagnósticos y tratamientos, generando un resumen del estado de salud del
-paciente accesible para ambas partes.
+- Desarrollar un sistema que permita a los médicos registrar observaciones,
+  diagnósticos y tratamientos, generando un resumen del estado de salud del
+  paciente accesible para ambas partes.
 
-- Garantizar la Seguridad y Confidencialidad de los Datos:
+**Garantizar la Seguridad y Confidencialidad de los Datos**:
 
-Implementar medidas de seguridad robustas para proteger la información médica
-sensible de pacientes y médicos.
+- Implementar medidas de seguridad robustas para proteger la información médica
+  sensible de pacientes y médicos.
 
-- Realizar Pruebas y Asegurar Funcionalidad:
+**Realizar Pruebas y Asegurar Funcionalidad**:
 
-Verificar la funcionalidad del sistema mediante pruebas exhaustivas para
-asegurar su correcto funcionamiento y usabilidad.
+- Verificar la funcionalidad del sistema mediante pruebas exhaustivas para
+  asegurar su correcto funcionamiento y usabilidad.
 
-- Capacitar a Usuarios Finales:
+**Capacitar a Usuarios Finales**:
 
 Brindar capacitación y soporte adecuado a médicos y personal administrativo para
 el uso eficiente y efectivo del sistema.
 
-- Desplegar y Poner en Marcha el Sistema:
+**Desplegar y Poner en Marcha el Sistema**:
 
-Implementar el sistema de gestión de pacientes en el entorno de producción,
-asegurando una transición sin problemas y un inicio efectivo de su operación.
+- Implementar el sistema de gestión de pacientes en el entorno de producción,
+  asegurando una transición sin problemas y un inicio efectivo de su operación.
 
 ---
 
