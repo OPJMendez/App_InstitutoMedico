@@ -17,30 +17,30 @@ realizadas al paciente.
 
 #### Paciente - Usuario
 
-        **Registro:**
+**Registro:**
 
-        - Los pacientes deben poder registrarse en la plataforma proporcionando
-        información personal.
+- Los pacientes deben poder registrarse en la plataforma proporcionando
+  información personal.
 
-        **Login:**
+**Login:**
 
-        - El sistema debe permitir la creación de un usuario y contraseña para el acceso
-        a la plataforma.
+- El sistema debe permitir la creación de un usuario y contraseña para el acceso
+  a la plataforma.
 
-        **Solicitud de Citas**:
+**Solicitud de Citas**:
 
-        - El usuario debe poder solicitar citas con médicos específicos, seleccionando
-        fecha y hora disponibles.
+- El usuario debe poder solicitar citas con médicos específicos, seleccionando
+  fecha y hora disponibles.
 
-        **Calificación de Atención**:
+**Calificación de Atención**:
 
-        - Permitir a los pacientes calificar la atención recibida después de cada cita
-        médica.
+- Permitir a los pacientes calificar la atención recibida después de cada cita
+  médica.
 
-        **Visualización de Comentarios**:
+**Visualización de Comentarios**:
 
-        - Posibilidad de ver los comentarios y observaciones realizadas por los médicos
-        después de cada cita.
+- Posibilidad de ver los comentarios y observaciones realizadas por los médicos
+  después de cada cita.
 
 ---
 
