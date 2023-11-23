@@ -61,44 +61,37 @@ realizadas al paciente.
 
 # Requerimientos No Funcionales:
 
-1- Seguridad:
+**Seguridad y Privacidad:**
 
--> Los datos de pacientes y médicos deben estar protegidos mediante medidas de
-seguridad adecuadas.
+- Cumplimiento con regulaciones de seguridad médica para proteger los datos
+  confidenciales de los pacientes.
 
-2- Usabilidad:
+**Usabilidad y Experiencia del Usuario:**
 
--> La plataforma debe ser fácil de usar tanto para los médicos como para los
-pacientes.
+- Interfaz intuitiva y fácil de usar para pacientes y médicos, con navegación
+  clara y accesible.
 
-3- Rendimiento:
+**Disponibilidad y Confianza:**
 
--> El sistema debe manejar la carga de gestionar citas y comentarios sin demoras
-significativas.
+- Garantizar un sistema disponible las 24 horas del día, 7 días a la semana, con
+  una alta confiabilidad y tiempos de respuesta rápidos.
 
-4- Disponibilidad:
+**Rendimiento y Escalabilidad:**
 
--> El sistema debe estar disponible para los usuarios en todo momento, dado que
-se maneja por orden de llegada.
+- El sistema debe manejar eficientemente un alto volumen de solicitudes de
+  pacientes y médicos, manteniendo un rendimiento óptimo.
 
-5- Capacidad de Atención:
+**Compatibilidad Multiplataforma:**
 
--> La cantidad máxima de pacientes atendidos por cada médico debe ser gestionada
-y no debe ser excedida.
+- Debe ser accesible desde dispositivos móviles y diversos navegadores web sin
+  comprometer la funcionalidad.
 
-## Alcance del proyecto
+**Mantenibilidad y Actualizaciones:**
 
-Implementación de un sistema de gestion de citas que permita al personal del
-instituto médico y a sus clientes tener un control acerca de sus solicitudes
-médicas.
+- Mantenimiento sencillo del sistema, con la capacidad de realizar
+  actualizaciones sin interrumpir el servicio.
 
-## Datos aparte
+**Auditoría y Registro:**
 
-Roles: Admin, Medico, Paciente.
-
-Admin: registra, agendar citas (CRUD), alterar estados (Activo, Inactivo,)
-
-Medico - Activo, inactivo, disponible, no disponible Paciente, estados: Activo,
-inactivo
-
-Citas estados: asignadas,atendida , cancelada
+- Capacidad para registrar acciones importantes dentro del sistema para
+  propósitos de auditoría y seguimiento.
