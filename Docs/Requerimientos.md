@@ -15,6 +15,8 @@ realizadas al paciente.
 
 # Requerimientos Funcionales:
 
+#### Paciente - Usuario
+
 **Registro:**
 
 - Los pacientes deben poder registrarse en la plataforma proporcionando
@@ -40,13 +42,22 @@ realizadas al paciente.
 - Posibilidad de ver los comentarios y observaciones realizadas por los médicos
   después de cada cita.
 
-3- Gestión de Citas por Médicos:
+---
 
--> Los médicos deben poder gestionar sus propias citas, incluyendo crear y
-modificar citas.
+#### Médico
 
--> Deben poder agregar o modificar los comentarios relacionados con la atención
-brindada a cada paciente.
+**Disponibilidad de información**
+
+- Los médicos deben poder acceder a la lista de pacientes con citas asignadas.
+
+**Comentarios - Observaciones medicas**
+
+- Deben poder crear observaciones acerca del estado de salud del paciente.
+
+**Calificación o Comentarios por parte del paciente**
+
+- Los médicos deben poder observar la calificación recibida por parte del
+  paciente
 
 # Requerimientos No Funcionales:
 
