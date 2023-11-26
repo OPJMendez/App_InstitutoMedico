@@ -297,3 +297,9 @@ realizadas al paciente.
 
 - Capacidad para registrar acciones importantes dentro del sistema para
   propósitos de auditoría y seguimiento.
+
+---
+
+# Modelo Relacional
+
+![](assets/MODELORELACIONALV2.png)
