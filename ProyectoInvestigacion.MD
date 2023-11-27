@@ -303,3 +303,9 @@ realizadas al paciente.
 # Modelo Relacional
 
 ![](assets/MODELORELACIONALV2.png)
+
+---
+
+# Diagrama de Casos de Uso
+
+![](assets/MODELORELACIONALV2.png)
