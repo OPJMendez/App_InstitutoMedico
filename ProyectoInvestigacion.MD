@@ -308,4 +308,4 @@ realizadas al paciente.
 
 # Diagrama Casos de Uso
 
-![](assets/MODELORELACIONALV2.png)
+![](assets/CASOSDEUSO.png)
