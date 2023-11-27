@@ -306,6 +306,6 @@ realizadas al paciente.
 
 ---
 
-# Diagrama de Casos de Uso
+# Diagrama Casos de Uso
 
 ![](assets/MODELORELACIONALV2.png)
