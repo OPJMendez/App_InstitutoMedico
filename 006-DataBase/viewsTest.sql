@@ -11,7 +11,7 @@ CREATE VIEW vista_estado AS
     WHERE
         `e`.`pk_id_encabezado` = '1';
 
-SELECT * FROM `vista_estado`;
+
 
 CREATE VIEW `vista_genero` AS
     SELECT 
@@ -26,10 +26,7 @@ CREATE VIEW `vista_genero` AS
     WHERE
         `e`.`pk_id_encabezado` = '2';
 
-SELECT 
-    *
-FROM
-    vista_genero;
+
 
 
 CREATE VIEW vista_tipoDocumento AS
@@ -46,7 +43,7 @@ CREATE VIEW vista_tipoDocumento AS
     WHERE
         e.pk_id_encabezado = '3';
         
-SELECT * FROM vista_tipoDocumento;
+
 
 CREATE VIEW vista_rol AS
     SELECT 
@@ -61,7 +58,7 @@ CREATE VIEW vista_rol AS
         `e`.`pk_id_encabezado` = '4';
 select * from vista_rol;
 
-CREATE VIEW vista_tipo_contacto AS
+CREATE VIEW vista_tipoContacto AS
     SELECT 
         e.pk_id_encabezado AS id_tipoContacto,
         d.pk_id_detalle AS id_detalle,
@@ -73,7 +70,7 @@ CREATE VIEW vista_tipo_contacto AS
     WHERE
         `e`.`pk_id_encabezado` = '5';
         
-select * from vista_tipoContacto;
+
 
 CREATE VIEW vista_tipoEntidad AS
     SELECT 
@@ -101,7 +98,7 @@ CREATE VIEW vista_tipoCorreo AS
     WHERE
         `e`.`pk_id_encabezado` = '7';
         
-select * from vista_tipoCorreo;
+
 
 CREATE VIEW vista_prioridad AS
     SELECT 
@@ -116,3 +113,8 @@ CREATE VIEW vista_prioridad AS
         `e`.`pk_id_encabezado` = '8';
         
 select * from vista_prioridad;
+SELECT * FROM vista_estado;
+SELECT * FROM vista_genero;
+SELECT * FROM vista_tipoDocumento;
+select * from vista_tipoContacto;
+select * from vista_tipoCorreo;
