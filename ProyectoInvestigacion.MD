@@ -23,8 +23,7 @@ médica en el Instituto Médico 'Salud Colombia'.
 
 El Instituto Médico 'Salud Colombia' enfrenta dificultades para gestionar
 eficientemente sus usuarios, las citas de estos, la información acerca de los
-médicos y la opinión de los pacientes conforme a la atención recibida. La falta
-de un sistema de gestión integral conlleva a problemas como la pérdida de
+médicos. La falta de un sistema de gestión integral conlleva a problemas como la pérdida de
 información, retrasos en la atención y una experiencia subóptima para pacientes
 y médicos.
 
@@ -39,10 +38,6 @@ y médicos.
   que permita a los médicos registrar observaciones y proporcionar resúmenes
   estructurados del estado de salud del paciente dificulta la continuidad de la
   atención médica.
-
-- Limitada Retroalimentación Paciente-Médico: La falta de una plataforma para la
-  retroalimentación Paciente-Médico dificulta la mejora continua en la calidad
-  de la atención y servicios médicos.
 
 ---
 
@@ -86,12 +81,6 @@ seguimiento estructurado de la atención médica.
 
 - Crear un módulo que permita a los pacientes solicitar citas con médicos
   específicos, gestionar disponibilidad y evitar conflictos de horarios.
-
-**Implementar Módulo de Retroalimentación Paciente-Médico**:
-
-- Diseñar un sistema que facilite la retroalimentación y calificación de la
-  atención médica por parte de los pacientes, y permita al instituto médico
-  tomar decisiones para mejorar su servicio en base a dicha retroalimentación.
 
 **Establecer el Seguimiento Médico Estructurado**:
 
@@ -146,12 +135,6 @@ seguimiento estructurado de la atención médica.
   - Módulo que permita a los pacientes solicitar citas con médicos específicos y
     gestionar horarios de manera intuitiva.
 
-- Canal de Retroalimentación Paciente-Médico:
-
-  - Sistema para que los pacientes califiquen la atención médica y proporcionen
-    comentarios, y para que los médicos respondan y mejoren la atención en base
-    a esa retroalimentación.
-
 - Seguimiento Médico Estructurado:
 
   - Plataforma que permita a los médicos registrar observaciones, diagnósticos y
@@ -192,7 +175,7 @@ seguimiento estructurado de la atención médica.
 ### Beneficios Esperados:
 
 - **Mejora en la Experiencia del Paciente**: Mayor facilidad para gestionar
-  citas, proporcionar retroalimentación y recibir una atención médica más
+  citas  y recibir una atención médica más
   personalizada.
 
 - **Eficiencia Operativa**: Optimización de los procesos de gestión de
@@ -209,8 +192,7 @@ seguimiento estructurado de la atención médica.
 El Instituto Medico 'Salud Colombia', requiere un sistema para gestionar los
 pacientes que requieran un servicio médico, el paciente debe estar en la
 capacidad de registrarse en la plataforma, solicitar una cita con el médico
-deseado, y después de su cita poder calificar la atención recibida y observar
-los comentarios realizados por parte del profesional de la salud.
+deseado y observar los comentarios realizados por parte del profesional de la salud.
 
 Los médicos pueden ver los pacientes que tiene asignados junto con la
 retroalimentación realizada en cada una de las citas, con el fin de poder
@@ -236,11 +218,6 @@ realizadas al paciente.
 - El usuario debe poder solicitar citas con médicos específicos, seleccionando
   fecha y hora disponibles.
 
-**Calificación de Atención**:
-
-- Permitir a los pacientes calificar la atención recibida después de cada cita
-  médica.
-
 **Visualización de Comentarios**:
 
 - Posibilidad de ver los comentarios y observaciones realizadas por los médicos
@@ -253,11 +230,6 @@ realizadas al paciente.
 **Comentarios - Observaciones medicas**
 
 - Deben poder crear observaciones acerca del estado de salud del paciente.
-
-**Calificación o Comentarios por parte del paciente**
-
-- Los médicos deben poder observar la calificación recibida por parte del
-  paciente.
 
 ---
 
